@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+  <g id="多角形_1" data-name="多角形 1" transform="translate(10 10) rotate(180)" fill="#707070">
+    <path d="M 9.190984725952148 9.5 L 0.8090149760246277 9.5 L 5 1.118029952049255 L 9.190984725952148 9.5 Z" stroke="none"/>
+    <path d="M 5 2.236070156097412 L 1.618035316467285 9 L 8.381964683532715 9 L 5 2.236070156097412 M 5 0 L 10 10 L 0 10 L 5 0 Z" stroke="none" fill="#707070"/>
+  </g>
+</svg>

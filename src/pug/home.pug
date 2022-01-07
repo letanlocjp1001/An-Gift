@@ -1,0 +1,102 @@
+doctype html
+html(lang="ja")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="./css/style.css")
+    title ホーム
+  body.home 
+    header
+      .home__name 
+        h2 An-Gift 
+      .home__nav 
+        .account 
+          img(src="img/user-4.jpg", alt="user")
+        .search
+          input.search__input(type="text" placeholder="IPhone")
+      .banner 
+        .banner__img 
+          img(src="img/banner-1.png", alt="banner")
+      .pagination 
+        .pagination--1.pagination--active
+        .pagination--1
+        .pagination--1
+
+      h2.content__h2 条件
+      .condition 
+        ul.condition__first
+          li.condition__item--1 
+            p シーン
+            img(src="img/arrow.svg", alt="arrow")
+          
+          li.condition__item--1 
+            p 年齢
+            img(src="img/arrow.svg", alt="arrow")
+        ul.condition__second
+          li.condition__item--2 
+            p どんな時
+            img(src="img/arrow.svg", alt="arrow")
+          li.condition__item--2
+            p.position 料金
+            img(src="img/arrow.svg", alt="arrow")
+
+      h2.content__h2 カテゴリ
+      .category
+        ul 
+          li 
+            img(src="img/arrow.svg", alt="icon")
+          li 
+            img(src="img/arrow.svg", alt="icon")
+          li 
+            img(src="img/arrow.svg", alt="icon")
+          li 
+            img(src="img/arrow.svg", alt="icon")
+          
+        ul 
+          li 
+            img(src="img/arrow.svg", alt="icon")
+          li 
+            img(src="img/arrow.svg", alt="icon")
+          li 
+            img(src="img/arrow.svg", alt="icon")
+          li 
+            img(src="img/arrow.svg", alt="icon")
+          
+        ul 
+          li 
+            img(src="img/arrow.svg", alt="icon")
+          li 
+            img(src="img/arrow.svg", alt="icon")
+          li 
+            img(src="img/user-4.jpg", alt="icon")
+          li 
+            img(src="img/arrow.svg", alt="icon")
+        .btn.category__btn 提案 
+      
+      h2.content__h2 人気ランキング
+      .ranking 
+        .ranking__box
+          p 2位
+          img(src="img/user-4.jpg", alt="icon")
+        .ranking__box--2
+          p 1位
+          img(src="img/user-4.jpg", alt="icon")
+        .ranking__box 
+          p 3位
+          img(src="img/user-4.jpg", alt="icon")
+
+
+    footer 
+      .footer__home 
+        a(href="home.html") 
+          img(src="img/home.svg", alt="home")
+      .footer__cart
+        a(href="cart.html") 
+          img(src="img/cart.svg", alt="home")
+      .footer__ring 
+        a(href="information.html") 
+          img(src="img/ring.svg", alt="home")
+      .footer__heart
+        a(href="like.html") 
+          img(src="img/heart.svg", alt="home")

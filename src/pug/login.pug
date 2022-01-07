@@ -1,0 +1,23 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="./css/style.css")
+    title Login
+  body.secondpage 
+    header.header
+      .header__logo 
+        img(src="./img/logo.svg", alt="logo")    
+    form.form.form__login(action="#" ) 
+      .form__group 
+        input.form__input(type="text" placeholder="ID" id="ID" required)
+        input.form__input(type="text" placeholder="メールアドレス" id="mail" required)
+    .second
+      .second__btn
+        .btn.second__signup
+              a(href="#").second__link ログイン
+        .second__other 
+          p 新規登録
+            a(href="#").second__link  こちら 

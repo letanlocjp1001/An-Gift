@@ -1,0 +1,29 @@
+doctype html
+html(lang="ja")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="./css/style.css")
+    title 登録
+  body.secondpage 
+    header.header
+      .header__logo 
+        img(src="./img/logo.svg", alt="logo")
+    main.second.second__margin 
+      .second__btn
+        .btn.second__login
+          a(href="#").second__link ログイン
+        .btn.second__signup
+          a(href="#").second__link 新規登録
+      .second__other 
+        p 別のアカウントでログインする
+      ul.second__group 
+        li.second__group-icon
+          img(src="./img/google.svg", alt="google")
+        li.second__group-icon 
+          img(src="./img/facebook.svg", alt="facebook")
+        li.second__group-icon 
+          img(src="./img/twitter.svg", alt="twitter")
+
+    script(src="./js/app.js")  

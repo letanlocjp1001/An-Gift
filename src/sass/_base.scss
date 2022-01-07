@@ -1,0 +1,135 @@
+$color-primary: #ffbbbb;
+$color-secondary: #ccc9e7;
+$color-dark: #c4ced0;
+$color-light: #ffbf85;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+.btn {
+  font-size: 1.6rem;
+  padding: 1rem 5rem;
+  border: 2px solid $color-primary;
+  border-radius: 3rem;
+  margin-bottom: 3rem;
+  font-weight: bold;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+.content__h2 {
+  margin-left: 3rem;
+  font-size: 2rem;
+}
+
+.condition {
+  // width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.6rem;
+  &__first {
+    display: flex;
+    li:first-child {
+      border-right: 1px solid $color-primary;
+    }
+  }
+
+  &__item--1 {
+    display: flex;
+    width: 125px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    padding-right: 10px;
+    p {
+      padding-right: 3rem;
+    }
+  }
+
+  &__second {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+  }
+  &__item--2 {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    text-align: center;
+    margin-bottom: 1rem;
+    p {
+      position: relative;
+      left: 85px;
+    }
+  }
+}
+
+.position {
+  left: 100px !important;
+}
+
+// CATEGORY
+.category {
+  margin: 0 3rem;
+  ul {
+    display: flex;
+    li img {
+      width: 6rem;
+      height: 6rem;
+      border: 1px solid $color-primary;
+      border-radius: 50%;
+    }
+    li:not(last-child) {
+      margin: 1rem;
+    }
+  }
+  &__btn {
+    text-align: center;
+    width: 150px;
+    margin-left: 8rem;
+    margin-top: 1.5rem;
+  }
+}
+
+.ranking {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 3rem 5rem 3rem;
+
+  &__box img {
+    width: 90px;
+    height: 40px;
+  }
+  &__box--2 img {
+    width: 120px;
+    height: 70px;
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  border: 1px solid $color-primary;
+}

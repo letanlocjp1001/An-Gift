@@ -1,0 +1,26 @@
+doctype html
+html(lang="ja")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="./css/style.css")
+    title 新規登録
+  body.secondpage 
+    header.header
+      .header__logo 
+        img(src="./img/logo.svg", alt="logo") 
+    form.form(action="#" ) 
+      .form__group 
+        input.form__input(type="text" placeholder="ID" id="ID" required)
+        input.form__input(type="text" placeholder="メールアドレス" id="mail" required)
+        input.form__input(type="text" placeholder="パスワード" id="password" required)
+        input.form__input(type="text" placeholder="パスワード確認" id="confirm password" required)
+    .second 
+      .second__btn
+        .btn.second__signup
+            a(href="#").second__link 新規登録
+        .second__other 
+          p ログイン
+            a(href="#").second__link  こちら 
+  script(src="./js/app.js") 
