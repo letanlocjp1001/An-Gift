@@ -88,48 +88,9 @@ li {
   left: 100px !important;
 }
 
-// CATEGORY
-.category {
-  margin: 0 3rem;
-  ul {
-    display: flex;
-    li img {
-      width: 6rem;
-      height: 6rem;
-      border: 1px solid $color-primary;
-      border-radius: 50%;
-    }
-    li:not(last-child) {
-      margin: 1rem;
-    }
-  }
-  &__btn {
-    text-align: center;
-    width: 150px;
-    margin-left: 8rem;
-    margin-top: 1.5rem;
-  }
-}
-
-.ranking {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 2rem 3rem 5rem 3rem;
-
-  &__box img {
-    width: 90px;
-    height: 40px;
-  }
-  &__box--2 img {
-    width: 120px;
-    height: 70px;
-  }
-}
-
 footer {
   display: flex;
   justify-content: space-around;
   padding: 1rem;
-  border: 1px solid $color-primary;
+  border: 2px solid $color-primary;
 }
