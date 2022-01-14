@@ -1,0 +1,92 @@
+.product {
+  img {
+    width: 375px;
+    height: auto;
+  }
+  &__detail {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  &__name {
+    border-left: 2px solid $color-primary;
+    padding-left: 0.5rem;
+    p:first-child {
+      font-size: 0.9rem;
+    }
+    p:nth-child(2) {
+      font-size: 1.6rem;
+      font-weight: bold;
+    }
+    p:last-child {
+      font-size: 0.9rem;
+    }
+  }
+  &__text {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  &__price {
+    display: flex;
+    border-left: 2px solid $color-primary;
+    padding-left: 0.5rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    span {
+      font-weight: normal;
+      margin-left: 0.5rem;
+    }
+  }
+  &__star {
+    display: flex;
+    align-items: center;
+    #star-1,
+    #star-2,
+    #star-3,
+    #star-4 {
+      fill: $color-primary;
+    }
+  }
+  &__num {
+    margin-left: 1rem;
+    span {
+      font-size: 1.4rem;
+    }
+  }
+}
+.express {
+  position: relative;
+  width: 100%;
+  padding: 1rem 2rem;
+  border: 2px solid $color-secondary;
+  border-radius: 2rem;
+
+  &__buy {
+    position: absolute;
+    top: -2rem;
+    right: -2rem;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background-color: #fe9200;
+  }
+  &__img {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    p {
+      color: #fff;
+      width: 100%;
+    }
+  }
+}

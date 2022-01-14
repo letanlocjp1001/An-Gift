@@ -14,6 +14,13 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 3rem;
+}
+
 .btn {
   font-size: 1.6rem;
   padding: 1rem 5rem;
@@ -205,6 +212,96 @@ footer {
   background-color: #fff;
 }
 
+.product img {
+  width: 375px;
+  height: auto;
+}
+.product__detail {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+.product__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.product__name {
+  border-left: 2px solid #ffbbbb;
+  padding-left: 0.5rem;
+}
+.product__name p:first-child {
+  font-size: 0.9rem;
+}
+.product__name p:nth-child(2) {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.product__name p:last-child {
+  font-size: 0.9rem;
+}
+.product__text {
+  font-size: 0.9rem;
+  text-align: center;
+}
+.product__price {
+  display: flex;
+  border-left: 2px solid #ffbbbb;
+  padding-left: 0.5rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.product__price span {
+  font-weight: normal;
+  margin-left: 0.5rem;
+}
+.product__star {
+  display: flex;
+  align-items: center;
+}
+.product__star #star-1,
+.product__star #star-2,
+.product__star #star-3,
+.product__star #star-4 {
+  fill: #ffbbbb;
+}
+.product__num {
+  margin-left: 1rem;
+}
+.product__num span {
+  font-size: 1.4rem;
+}
+
+.express {
+  position: relative;
+  width: 100%;
+  padding: 1rem 2rem;
+  border: 2px solid #ccc9e7;
+  border-radius: 2rem;
+}
+.express__buy {
+  position: absolute;
+  top: -2rem;
+  right: -2rem;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  background-color: #fe9200;
+}
+.express__img {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.express__img p {
+  color: #fff;
+  width: 100%;
+}
+
 .home__name {
   font-size: 2.5rem;
   text-align: center;
@@ -214,7 +311,7 @@ footer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .account {
@@ -254,15 +351,14 @@ footer {
 
 .pagination {
   display: flex;
-  justify-content: flex-end;
-  margin-right: 3.5rem;
+  justify-content: center;
 }
 .pagination--1 {
-  width: 1.2rem;
-  height: 1.2rem;
+  width: 1.8rem;
+  height: 1.8rem;
   border-radius: 50%;
   border: 1px solid #ffbbbb;
-  margin: 0 0.3rem;
+  margin: 0.5rem;
 }
 .pagination--active {
   background-color: #ffbbbb;
