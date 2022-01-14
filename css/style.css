@@ -187,6 +187,24 @@ footer {
   margin-top: 5rem;
 }
 
+.main {
+  margin-top: 2.4rem;
+  margin-bottom: 10rem;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+footer {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  bottom: 0;
+  background-color: #fff;
+}
+
 .home__name {
   font-size: 2.5rem;
   text-align: center;
