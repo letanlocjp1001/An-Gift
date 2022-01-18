@@ -48,9 +48,11 @@
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
+
   select {
     margin-bottom: 1rem;
     border-radius: 1.3rem;
     padding: 1rem;
+    border: 1px solid $color-light;
   }
 }

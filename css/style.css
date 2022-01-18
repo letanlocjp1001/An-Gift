@@ -39,8 +39,8 @@ li {
 }
 
 .content__h2 {
-  margin-left: 3rem;
   font-size: 2rem;
+  color: #ffbbbb;
 }
 
 .condition {
@@ -410,6 +410,35 @@ footer {
   margin-bottom: 1rem;
   border-radius: 1.3rem;
   padding: 1rem;
+  border: 1px solid #ffbf85;
+}
+
+.cart__groups {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+.cart__group {
+  margin-left: 1rem;
+  font-size: 1.3rem;
+}
+.cart__icon {
+  display: flex;
+  justify-content: flex-end;
+}
+.cart__icon h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffbbbb;
+  padding: 1rem;
+}
+.cart__single {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.cart__single img {
+  padding: 1rem 0;
 }
 
 .home__name {

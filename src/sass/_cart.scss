@@ -1,0 +1,30 @@
+.cart {
+  &__groups {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+  }
+  &__group {
+    margin-left: 1rem;
+    font-size: 1.3rem;
+  }
+  &__icon {
+    display: flex;
+    justify-content: flex-end;
+    h3 {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: $color-primary;
+      padding: 1rem;
+    }
+  }
+
+  &__single {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    img {
+      padding: 1rem 0;
+    }
+  }
+}
