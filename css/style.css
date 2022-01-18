@@ -272,6 +272,15 @@ footer {
 .product__num span {
   font-size: 1.4rem;
 }
+.product__cart {
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+  background-color: #ffbbbb;
+  padding: 0.7rem 2rem;
+  position: fixed;
+  top: 87%;
+}
 
 .express {
   position: relative;
@@ -302,6 +311,53 @@ footer {
   width: 100%;
 }
 
+.review {
+  position: relative;
+  border-radius: 2rem;
+  border: 2px solid #ffbbbb;
+  padding: 2rem 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.review h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.review__people {
+  border-radius: 1rem;
+  border: 1px solid #ffbf85;
+  margin-bottom: 2rem;
+  padding: 0.5rem 1rem 2rem 1rem;
+  position: relative;
+}
+.review__people p:first-child {
+  font-size: 8px;
+  margin-bottom: 5px;
+}
+.review__people p:nth-child(2) {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+.review__people p:last-child {
+  position: absolute;
+  font-size: 0.5rem;
+  right: 1rem;
+}
+.review__total {
+  border: 0.5px solid #333;
+  width: 50%;
+  border-radius: 2rem;
+  position: absolute;
+  left: 50%;
+  top: 92%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.review__total p {
+  font-size: 6px;
+  padding: 4px 2px;
+}
+
 .home__name {
   font-size: 2.5rem;
   text-align: center;
@@ -317,6 +373,7 @@ footer {
 .account {
   width: 4rem;
   height: 4rem;
+  margin-right: 2rem;
 }
 .account img {
   width: 100%;

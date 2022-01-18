@@ -60,6 +60,15 @@
       font-size: 1.4rem;
     }
   }
+  &__cart {
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    background-color: $color-primary;
+    padding: 0.7rem 2rem;
+    position: fixed;
+    top: 87%;
+  }
 }
 .express {
   position: relative;
@@ -87,6 +96,52 @@
     p {
       color: #fff;
       width: 100%;
+    }
+  }
+}
+.review {
+  position: relative;
+  border-radius: 2rem;
+  border: 2px solid $color-primary;
+  padding: 2rem 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  h3 {
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  &__people {
+    border-radius: 1rem;
+    border: 1px solid $color-light;
+    margin-bottom: 2rem;
+    padding: 0.5rem 1rem 2rem 1rem;
+    position: relative;
+    p:first-child {
+      font-size: 8px;
+      margin-bottom: 5px;
+    }
+    p:nth-child(2) {
+      font-size: 1.2rem;
+      margin-bottom: 5px;
+    }
+    p:last-child {
+      position: absolute;
+      font-size: 0.5rem;
+      right: 1rem;
+    }
+  }
+  &__total {
+    border: 0.5px solid #333;
+    width: 50%;
+    border-radius: 2rem;
+    position: absolute;
+    left: 50%;
+    top: 92%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    p {
+      font-size: 6px;
+      padding: 4px 2px;
     }
   }
 }
