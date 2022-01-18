@@ -195,7 +195,7 @@ footer {
   justify-content: space-around;
 }
 .product img {
-  width: 375px;
+  width: 328px;
   height: auto;
 }
 .product__detail {
@@ -262,7 +262,7 @@ footer {
   padding: 0.7rem 2rem;
   position: fixed;
   top: 87%;
-  left: 25%;
+  left: 28%;
 }
 
 .express {
