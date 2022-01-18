@@ -1,4 +1,8 @@
 .cart {
+  &__header {
+    text-align: center;
+    font-size: 1.8rem;
+  }
   &__groups {
     display: flex;
     align-items: center;
@@ -26,5 +30,27 @@
     img {
       padding: 1rem 0;
     }
+  }
+  &__input {
+    width: 320px;
+    height: 80px;
+    padding: 0.5rem;
+  }
+
+  &__total {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    font-size: 1.6rem;
+  }
+  &__button {
+    border-radius: 1rem;
+    background-color: $color-primary;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    width: 150px;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 20px;
   }
 }

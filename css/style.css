@@ -96,6 +96,12 @@ footer {
   justify-content: space-around;
   padding: 1rem;
   border: 2px solid #ffbbbb;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
 }
 
 .firstpage {
@@ -203,14 +209,6 @@ footer {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-footer {
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-  bottom: 0;
-  background-color: #fff;
-}
-
 .product img {
   width: 375px;
   height: auto;
@@ -413,6 +411,10 @@ footer {
   border: 1px solid #ffbf85;
 }
 
+.cart__header {
+  text-align: center;
+  font-size: 1.8rem;
+}
 .cart__groups {
   display: flex;
   align-items: center;
@@ -439,6 +441,27 @@ footer {
 }
 .cart__single img {
   padding: 1rem 0;
+}
+.cart__input {
+  width: 320px;
+  height: 80px;
+  padding: 0.5rem;
+}
+.cart__total {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+  font-size: 1.6rem;
+}
+.cart__button {
+  border-radius: 1rem;
+  background-color: #ffbbbb;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  width: 150px;
+  text-align: center;
+  margin-left: 80px;
+  margin-top: 20px;
 }
 
 .home__name {

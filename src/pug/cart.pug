@@ -10,7 +10,7 @@ html(lang="ja")
     .profile__top
       img(src="img/back.svg", alt="back")
       img(src="img/pencil.svg", alt="edit")
-    h2.cart__title ショッピングカート
+    h2.cart__header ショッピングカート
     .cart__groups 
       img(src="img/hand-block.svg", alt="")
       .cart__group 
@@ -71,3 +71,26 @@ html(lang="ja")
       img(src="img/wrap4.svg", alt="")
       img(src="img/wrap5.svg", alt="")
       img(src="img/wrap6.svg", alt="")
+    h4 包み紙
+    .cart__single 
+      img(src="img/wrap7.svg", alt="")
+      img(src="img/wrap8.svg", alt="")
+      img(src="img/wrap9.svg", alt="")
+      img(src="img/wrap10.svg", alt="")
+      img(src="img/wrap11.svg", alt="")
+      img(src="img/wrap12.svg", alt="")
+    h4 リボン
+    .cart__single
+      img(src="img/wrap12.svg", alt="")
+
+    h4 メッセージ付き
+    textarea.cart__input(type="text" placeholder="メッセージ入力")
+
+    .cart__total 
+      h4 商品合計：
+      h4 ￥1909税込
+    .cart__button 
+      p 購入する
+
+
+  include _footer
