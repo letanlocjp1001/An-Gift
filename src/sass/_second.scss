@@ -1,12 +1,9 @@
-.secondpage {
-  height: 100vh;
-}
 .header {
   position: relative;
   width: 100%;
   height: 37vh;
-  background: url(../img/bar.svg) no-repeat;
-  object-fit: center;
+  // background: url(../img/bar.svg) no-repeat center center;
+  // object-fit: cover;
 
   &__logo img {
     position: absolute;
@@ -34,15 +31,7 @@
     position: relative;
     font-size: 1.6rem;
     text-align: center;
-  }
-  &__other::after {
-    content: '';
-    position: absolute;
-    width: 120%;
-    height: 1px;
-    background: #000;
-    bottom: -6px;
-    left: -10%;
+    border-bottom: 1.5px solid $color-primary;
   }
 
   &__link:visited,
