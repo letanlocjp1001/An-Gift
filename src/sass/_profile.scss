@@ -1,0 +1,56 @@
+.profile {
+  &__top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__img img {
+    border-radius: 50%;
+  }
+  &__groups {
+    display: flex;
+  }
+  &__group {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+  }
+  &__items {
+    display: flex;
+  }
+  &__name p {
+    font-size: 2rem;
+    color: $color-light;
+  }
+  &__item {
+    align-items: center;
+    margin: 0.8rem;
+    text-align: center;
+    p {
+      font-size: 1rem !important;
+      color: black !important;
+      margin-top: 0.5rem;
+    }
+  }
+}
+
+.method {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid $color-secondary;
+  border-radius: 2rem;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+.express {
+  border: 2px solid $color-secondary;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  select {
+    margin-bottom: 1rem;
+    border-radius: 1.3rem;
+    padding: 1rem;
+  }
+}

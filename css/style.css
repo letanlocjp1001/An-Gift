@@ -17,7 +17,6 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin: 0 3rem;
 }
 
@@ -356,6 +355,61 @@ footer {
 .review__total p {
   font-size: 6px;
   padding: 4px 2px;
+}
+
+.profile__top {
+  display: flex;
+  justify-content: space-between;
+}
+.profile__img img {
+  border-radius: 50%;
+}
+.profile__groups {
+  display: flex;
+}
+.profile__group {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+}
+.profile__items {
+  display: flex;
+}
+.profile__name p {
+  font-size: 2rem;
+  color: #ffbf85;
+}
+.profile__item {
+  align-items: center;
+  margin: 0.8rem;
+  text-align: center;
+}
+.profile__item p {
+  font-size: 1rem !important;
+  color: black !important;
+  margin-top: 0.5rem;
+}
+
+.method {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid #ccc9e7;
+  border-radius: 2rem;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.express {
+  border: 2px solid #ccc9e7;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.express select {
+  margin-bottom: 1rem;
+  border-radius: 1.3rem;
+  padding: 1rem;
 }
 
 .home__name {

@@ -1,0 +1,54 @@
+doctype html
+html(lang="ja")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="./css/style.css")
+    title 商品詳細
+  body.main
+    .profile__top
+      img(src="img/back.svg", alt="back")
+      img(src="img/pencil.svg", alt="edit")
+    .profile__groups
+      .profile__img 
+        img(src="img/user-4.jpg", alt="user")
+      .profile__group 
+        .profile__name 
+          p ギフトちゃん
+          .profile__items
+            .profile__item 
+              img(src="img/clock.svg", alt="")
+              p 閲覧した
+            .profile__item 
+              img(src="img/ticket.svg", alt="ticket")
+              p クーポン
+            .profile__item 
+              img(src="img/wallet.svg", alt="wallet")
+              p Wallet
+    .method 
+      .method__group 
+        img(src="img/kin.svg", alt="")
+        p 支払い
+      .method__group 
+        img(src="img/people.svg", alt="")
+        p 処理中
+      .method__group 
+        img(src="img/car.svg", alt="")
+        p 出荷済み
+      .method__group 
+        img(src="img/henbin.svg", alt="")
+        p 返品
+
+    .express 
+      select 
+        option(value="届け先") 届け先
+      select 
+        option(value="通貨") 通貨
+      select 
+        option(value="言語") 言語
+      select 
+        option(value="お知らせ") お知らせ
+      select 
+        option(value="Gift Anとは") Gift Anとは
+        
