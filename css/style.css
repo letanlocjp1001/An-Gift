@@ -17,7 +17,6 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  padding: 2rem;
 }
 
 .btn {
@@ -102,6 +101,10 @@ footer {
   bottom: 0;
   left: 0;
   background-color: #fff;
+}
+
+.main {
+  margin: 2rem;
 }
 
 .firstpage {
@@ -426,7 +429,7 @@ footer {
   flex-wrap: wrap;
 }
 .cart__single img {
-  padding: 1rem 0;
+  padding: 1rem;
 }
 .cart__input {
   width: 320px;
