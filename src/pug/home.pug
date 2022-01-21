@@ -4,6 +4,7 @@ html(lang="ja")
     meta(charset="UTF-8")
     meta(http-equiv="X-UA-Compatible", content="IE=edge")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    
     link(rel="stylesheet", href="./css/style.css")
     title ホーム
   body.home 
@@ -18,7 +19,7 @@ html(lang="ja")
           input.search__input(type="text" placeholder="IPhone")
       .banner 
         .banner__img 
-          img(src="img/banner-1.png", alt="banner")
+          img.slide__img(src="img/banner-1.png", alt="banner")
       .pagination 
         .pagination--1.pagination--active
         .pagination--1
@@ -28,52 +29,69 @@ html(lang="ja")
       .condition 
         ul.condition__first
           li.condition__item--1 
-            p シーン
-            img(src="img/arrow.svg", alt="arrow")
+            select
+              option(value="シーン") シーン
           
           li.condition__item--1 
-            p 年齢
-            img(src="img/arrow.svg", alt="arrow")
+            select
+              option(value="年齢") 年齢
+              option(value="年齢") 高校生
+              option(value="年齢") 大学生
         ul.condition__second
           li.condition__item--2 
-            p どんな時
-            img(src="img/arrow.svg", alt="arrow")
+            select
+              option(value="どんな時") どんな時
+              option(value="どんな時") 誕生日
+              option(value="どんな時") 成人式
           li.condition__item--2
-            p.position 料金
-            img(src="img/arrow.svg", alt="arrow")
+            select
+              option(value="料金") 料金
+              option(value="料金") 1000円から2000円まで
+              option(value="料金") 〜１万円
 
       h2.content__h2.margin__h2 カテゴリ
       .category
         ul 
-          li 
-            img(src="img/category-1.svg", alt="icon")
+          li
+            a(href="product.html")  
+              img(src="img/category-1.svg", alt="icon")
           li
             a(href="product.html") 
               img(src="img/category-2.svg", alt="icon")
+          li
+            a(href="product.html")  
+              img(src="img/category-3.svg", alt="icon")
           li 
-            img(src="img/category-3.svg", alt="icon")
-          li 
-            img(src="img/category-4.svg", alt="icon")
+            a(href="product.html") 
+              img(src="img/category-4.svg", alt="icon")
           
         ul 
+          li
+            a(href="product.html")  
+              img(src="img/category-5.svg", alt="icon")
           li 
-            img(src="img/category-5.svg", alt="icon")
-          li 
-            img(src="img/category-6.svg", alt="icon")
-          li 
-            img(src="img/category-7.svg", alt="icon")
-          li 
-            img(src="img/category-8.svg", alt="icon")
+            a(href="product.html") 
+              img(src="img/category-6.svg", alt="icon")
+          li
+            a(href="product.html")  
+              img(src="img/category-7.svg", alt="icon")
+          li
+            a(href="product.html")  
+              img(src="img/category-8.svg", alt="icon")
           
         ul 
+          li
+            a(href="product.html")  
+              img(src="img/category-9.svg", alt="icon")
           li 
-            img(src="img/category-9.svg", alt="icon")
-          li 
-            img(src="img/category-10.svg", alt="icon")
-          li 
-            img(src="img/category-11.svg", alt="icon")
-          li 
-            img(src="img/category-1.svg", alt="icon")
+            a(href="product.html") 
+              img(src="img/category-10.svg", alt="icon")
+          li
+            a(href="product.html")  
+              img(src="img/category-11.svg", alt="icon")
+          li
+            a(href="product.html")  
+              img(src="img/category-1.svg", alt="icon")
         .btn.category__btn 提案 
       
       h2.content__h2.margin__h2 人気ランキング
@@ -87,6 +105,6 @@ html(lang="ja")
         .ranking__box 
           p 3位
           img(src="img/ranking-3.svg", alt="icon")
+    script(src="./js/app.js") 
 
-
-    include _footer
+  include _footer

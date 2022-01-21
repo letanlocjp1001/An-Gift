@@ -19,7 +19,7 @@
         </div>
       </div>
       <div class="banner"> 
-        <div class="banner__img"> <img src="img/banner-1.png" alt="banner"></div>
+        <div class="banner__img"> <img class="slide__img" src="img/banner-1.png" alt="banner"></div>
       </div>
       <div class="pagination"> 
         <div class="pagination--1 pagination--active"></div>
@@ -30,40 +30,54 @@
       <div class="condition"> 
         <ul class="condition__first">
           <li class="condition__item--1"> 
-            <p>シーン</p><img src="img/arrow.svg" alt="arrow">
+            <select>
+              <option value="シーン">シーン</option>
+            </select>
           </li>
           <li class="condition__item--1"> 
-            <p>年齢</p><img src="img/arrow.svg" alt="arrow">
+            <select>
+              <option value="年齢">年齢</option>
+              <option value="年齢">高校生</option>
+              <option value="年齢">大学生</option>
+            </select>
           </li>
         </ul>
         <ul class="condition__second">
           <li class="condition__item--2"> 
-            <p>どんな時</p><img src="img/arrow.svg" alt="arrow">
+            <select>
+              <option value="どんな時">どんな時</option>
+              <option value="どんな時">誕生日</option>
+              <option value="どんな時">成人式</option>
+            </select>
           </li>
           <li class="condition__item--2">
-            <p class="position">料金</p><img src="img/arrow.svg" alt="arrow">
+            <select>
+              <option value="料金">料金</option>
+              <option value="料金">1000円から2000円まで</option>
+              <option value="料金">〜１万円</option>
+            </select>
           </li>
         </ul>
       </div>
       <h2 class="content__h2 margin__h2">カテゴリ</h2>
       <div class="category">
         <ul> 
-          <li> <img src="img/category-1.svg" alt="icon"></li>
+          <li><a href="product.html"> <img src="img/category-1.svg" alt="icon"></a></li>
           <li><a href="product.html"> <img src="img/category-2.svg" alt="icon"></a></li>
-          <li> <img src="img/category-3.svg" alt="icon"></li>
-          <li> <img src="img/category-4.svg" alt="icon"></li>
+          <li><a href="product.html"> <img src="img/category-3.svg" alt="icon"></a></li>
+          <li> <a href="product.html"> <img src="img/category-4.svg" alt="icon"></a></li>
         </ul>
         <ul> 
-          <li> <img src="img/category-5.svg" alt="icon"></li>
-          <li> <img src="img/category-6.svg" alt="icon"></li>
-          <li> <img src="img/category-7.svg" alt="icon"></li>
-          <li> <img src="img/category-8.svg" alt="icon"></li>
+          <li><a href="product.html"> <img src="img/category-5.svg" alt="icon"></a></li>
+          <li> <a href="product.html"> <img src="img/category-6.svg" alt="icon"></a></li>
+          <li><a href="product.html"> <img src="img/category-7.svg" alt="icon"></a></li>
+          <li><a href="product.html"> <img src="img/category-8.svg" alt="icon"></a></li>
         </ul>
         <ul> 
-          <li> <img src="img/category-9.svg" alt="icon"></li>
-          <li> <img src="img/category-10.svg" alt="icon"></li>
-          <li> <img src="img/category-11.svg" alt="icon"></li>
-          <li> <img src="img/category-1.svg" alt="icon"></li>
+          <li><a href="product.html"> <img src="img/category-9.svg" alt="icon"></a></li>
+          <li> <a href="product.html"> <img src="img/category-10.svg" alt="icon"></a></li>
+          <li><a href="product.html"> <img src="img/category-11.svg" alt="icon"></a></li>
+          <li><a href="product.html"> <img src="img/category-1.svg" alt="icon"></a></li>
         </ul>
         <div class="btn category__btn">提案 </div>
       </div>
@@ -80,11 +94,12 @@
         </div>
       </div>
     </header>
-    <footer> 
-      <div class="footer__home"> <a href="home.html"> <img src="img/home.svg" alt="home"></a></div>
-      <div class="footer__cart"><a href="cart.html"> <img src="img/cart.svg" alt="home"></a></div>
-      <div class="footer__ring"> <a href="information.html"> <img src="img/ring.svg" alt="home"></a></div>
-      <div class="footer__heart"><a href="like.html"> <img src="img/heart.svg" alt="home"></a></div>
-    </footer>
+    <script src="./js/app.js"> </script>
   </body>
+  <footer> 
+    <div class="footer__home"> <a href="home.html"> <img src="img/home.svg" alt="home"></a></div>
+    <div class="footer__cart"><a href="cart.html"> <img src="img/cart.svg" alt="home"></a></div>
+    <div class="footer__ring"> <a href="information.html"> <img src="img/ring.svg" alt="home"></a></div>
+    <div class="footer__heart"><a href="like.html"> <img src="img/heart.svg" alt="home"></a></div>
+  </footer>
 </html>
