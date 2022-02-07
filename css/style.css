@@ -207,6 +207,11 @@ footer {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+.products a:visited,
+.products a:link {
+  color: #ffbbbb;
+}
+
 .product img {
   width: 328px;
   height: auto;

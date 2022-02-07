@@ -10,4 +10,8 @@
   }
   &__title {
   }
+  a:visited,
+  a:link {
+    color: $color-primary;
+  }
 }
